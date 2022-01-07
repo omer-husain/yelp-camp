@@ -35,6 +35,11 @@
         </li>
         <% } else { %>
         <li class="nav-item">
+          <span class="badge rounded-pill bg-primary"
+            ><%=currentUser.username%></span
+          >
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="/logout">Logout</a>
         </li>
         <% } %>
